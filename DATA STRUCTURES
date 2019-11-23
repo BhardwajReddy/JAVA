@@ -7,6 +7,25 @@ int a[] ={4,5,6,7,8};
 a[0] = 4;
 a[1]  = 5;
 a[2] = 6;
+
+
+Arrays.sort(a);
+Arrays.sort(arr, Collections.reverseOrder());----->Integer[] arr= new Integer[n];
+Arrays.fill(arr, 0);
+
+
+Array list
+ArrayList <String> al= new ArrayList();
+al.size();
+al.add("abc");
+al.get(index);
+al.remove(index);
+Collections.sort(name);
+Collections.sort(name, Collections.reverseOrder())
+
+
+
+
 Scanner sc = new Scanner(System.in);
 
 nextInt()	Integer
