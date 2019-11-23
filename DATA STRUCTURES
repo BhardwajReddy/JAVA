@@ -62,6 +62,10 @@ a.substring(0,0)--------> No output;
 a.substring(2)----------> llo
  String str1 = Integer.toString(456);
 String s= String.valueOf(456);
+
+An anagram of a string is another string that contains same characters, only the order of characters can be different
+
+
 -------------------------------------------------------------------------------------------------------------------------------------
 Hashing:-
 
