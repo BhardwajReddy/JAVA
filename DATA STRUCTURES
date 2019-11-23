@@ -1,4 +1,4 @@
-ARRAYS 
+ARRAYS :-
 
 int a[] =new int[5];
 
@@ -22,6 +22,70 @@ System.out.println("Geeks \n" + "for \n" + "Geeks \n");
 Geeks
 for 
 Geeks
+----------------------------------------------------------------------------------------------------------------------------------------------
+Strings:-
+
+String a= new String();
+a.length();-------->length of words in a;
+char k= a.charAt(i);
+char[] ch= new char[a.length()];
+ch[i]= a.charAt(i);
+String s= String.valueOf(value);---------->converts value (any data type) into string.
+StringBuffer sb= new StringBuffer("xyz")-------> Java StringBuffer class is used to create mutable (modifiable) string. The StringBuffer class in java is same as String class except it is mutable i.e. it can be changed.
+sb.append("any name"+any value);
+a.indexOf('x');
+a.indexOf('x', 10);------> index of x after 10th index;
+a.indexOf(word);-----> gives index of first letter, if word is persent
+a.substring(1,5)-------->gives string between 1 and 5. (not 5)
+    String s="hello";  
+    System.out.println(s.substring(0,2));//he  
+a.substring(0,0)--------> No output;
+a.substring(2)----------> llo
+ String str1 = Integer.toString(456);
+String s= String.valueOf(456);
+-------------------------------------------------------------------------------------------------------------------------------------
+Hashing:-
+
+HashSet<Integer> hs = new HashSet<>();
+hs.add(9);
+hs.remove(9);
+hs.contains(9);
 
 
+HashMap<Integer,Integer> hm = new HashMAp<>();
+hm.put(key,value);
+hm.get(key);-----> value
+hm.containsValue();
+hm.containsKey(key);->1/0
 
+hm.values() ,hm.keySet() -----> iterators
+
+Iterator<Integer> it= hs.iterator();
+while(it.hasNext()){
+System.out.println(random.next());
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+Stacks:-
+Stack<Integet> st= new Stack<Integer>();
+st.push(number);
+int k= st.pop();
+int z= st.peek();
+---------------------------------------------------------------------------------------------------------------------------------
+Queue:-
+Queue<Integer> q= new LinkedList<>();
+q.add(number);
+int k= q.poll();
+q.isEmpty()=0/1;
+q.size();
+q.peek();
+
+--------------------------------------------------------------------------------------------------------------------------------
+Min Heap:-
+PriorityQueue<String> pQueue = new PriorityQueue<String>();
+pQueue.add(x)------> adds element to queue
+pQueue.poll()------> removes and returns the minimun number in the queue
+
+Max Heap:-
+PriorityQueue<String> pQueue = new PriorityQueue<String>(Collections.reverseOrder());
+pQueue.poll()------> removes and returns the maximum number from queue
