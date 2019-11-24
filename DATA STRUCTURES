@@ -131,3 +131,14 @@ pQueue.poll()------> removes and returns the minimun number in the queue
 Max Heap:-
 PriorityQueue<String> pQueue = new PriorityQueue<String>(Collections.reverseOrder());
 pQueue.poll()------> removes and returns the maximum number from queue
+
+
+------------------------------------------------------------------------------------------------------------------------------
+INPUT	OUTPUT
+A	B	A XOR B 
+
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
