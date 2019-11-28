@@ -60,6 +60,12 @@ BufferedReader br  = new BufferedReader(new InputStreamReader(System.in));
 		        a[i]  = Integer.parseInt(s[i]);
 		    }
 		}
+		
+		
+long num = Long.parseLong(str);		
+		
+		
+		
 ----------------------------------------------------------------------------------------------------------------------------------------------
 Strings:-
 
