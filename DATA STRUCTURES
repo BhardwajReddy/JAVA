@@ -119,6 +119,9 @@ Stack<Integet> st= new Stack<Integer>();
 st.push(number);
 int k= st.pop();
 int z= st.peek();
+st.contains(val)--> boolean
+st.isEmpty();
+st.search(val)--> return -1 if it is not present starting from 1(not 0)
 ---------------------------------------------------------------------------------------------------------------------------------
 Queue:-
 Queue<Integer> q= new LinkedList<>();
