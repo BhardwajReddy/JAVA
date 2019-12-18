@@ -27,7 +27,27 @@ Collections.sort(name, Collections.reverseOrder())
   Collections.swap(a, i, j);--> swap two elements of list
                 
 
-
+        HashSet<String> namesSet = new HashSet<>();
+         
+        namesSet.add("alex");
+        namesSet.add("brian");
+        namesSet.add("charles");
+        namesSet.add("david");
+         
+        //Pass hashset to arraylist constructor
+        ArrayList<String> namesList = new ArrayList<>(namesSet)
+	
+ArrayList<String> namesList = new ArrayList<>();
+         
+        namesList.add("alex");
+        namesList.add("brian");
+        namesList.add("charles");
+        namesList.add("david");
+        namesList.add("alex");
+         
+        //Create hashset from list
+        //duplicate elements will be removed
+        HashSet<String> namesSet = new HashSet<>(namesList);
 
  a.get(i)==a.get(i+1) 
 a.get(i).intValue() == a.get(i+1).intValue()
