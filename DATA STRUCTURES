@@ -18,7 +18,9 @@ Array list
 ArrayList <String> al= new ArrayList();
 al.size();
 al.add("abc");
-al.get(index);
+al.add(index,obj)  - add at particular index by moving other element sto left 
+al.set(index,obj) - -add at particular elemnt by replacing 
+al.get(index); - get the object at particular index
 al.remove(index);
 Collections.sort(name);
 Collections.sort(name, Collections.reverseOrder())
