@@ -24,8 +24,16 @@ al.get(index); - get the object at particular index
 al.remove(index);
 Collections.sort(name);
 Collections.sort(name, Collections.reverseOrder())
+  Collections.swap(a, i, j);--> swap two elements of list
+                
 
 
+
+ a.get(i)==a.get(i+1) 
+a.get(i).intValue() == a.get(i+1).intValue()
+
+
+   a =new ArrayList<>(a.subList(0,index)); -- creating new list from past list 
 
 
 Scanner sc = new Scanner(System.in);
