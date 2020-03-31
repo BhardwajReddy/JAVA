@@ -196,3 +196,85 @@ A	B	A XOR B
 1	0	1
 1	1	0
 
+------------------------------------------------------------------------------------------------------------------------------
+
+Tries:-
+
+
+class Trie{
+    
+    TrieNode root;
+    
+    Trie(){
+        
+      this.root = new TrieNode();
+        
+    }
+    
+    
+    void insert(String s){
+        
+        TrieNode curr = root;
+        
+        for(int i=0;i<s.length();i++){
+            
+            int index = s.charAt(i)-'a';
+            
+            if(curr.child[index]==null){
+                
+                curr.child[index] = new TrieNode();
+                
+                
+            }
+            
+            curr = curr.child[index];
+            
+        }
+          
+       curr.isEnd = true;
+      
+    }
+    
+    boolean search(String s){
+        
+        TrieNode curr = root;
+        
+        for(int i=0;i<s.length();i++){
+            
+            int index = s.charAt(i)-'a';
+            
+            if(curr.child[index]==null){
+                return false;
+            }
+            
+     
+            curr  = curr.child[index];
+            
+            
+        }
+        return curr.isEnd;
+ 
+    }
+      
+}
+
+class TrieNode{
+    
+    
+    TrieNode child[] =new TrieNode[26];
+    boolean isEnd = false;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
