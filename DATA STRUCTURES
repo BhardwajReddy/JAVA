@@ -135,6 +135,26 @@ String s= String.valueOf(456);
 
 An anagram of a string is another string that contains same characters, only the order of characters can be different
 
+==(objects),equalsTo(values),compareTo, - - - methods have to study 
+
+StringBuilder:-
+
+String s = "poluri"
+
+StringBuilder sb = new StringBuilder(s);
+
+sb.deleteCharAt(1) - pluri
+sb.charAt(1)   - l
+sb.setCharAt(0,'t') = tluri
+
+sb.insert(0,'r')  - rtluri
+sb.append("hello") - plurihello
+
+
+
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------
 Hashing:-
