@@ -1,1 +1,11 @@
 
+  text = text.replaceAll(key, map.get(key));
+
+
+Integer.bitcount
+
+highest set bit
+
+binarysearch 
+
+string.contins()
