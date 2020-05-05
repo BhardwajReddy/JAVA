@@ -1,0 +1,20 @@
+MAY -06
+
+1)string to int or long or double 
+
+String s ="1234";
+
+Integer.parseInt(s) -> 1234
+Integer.valueOf("-1234") -> -1234(-ve numbers also)
+Long.parseLong()
+Long.valueOf()
+Double.parseDouble("12.34") ->12.34
+
+
+2)int , long ,double to string 
+
+String.valueOf()
+Integer.toString()
+
+
+
